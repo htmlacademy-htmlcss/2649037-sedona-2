@@ -745,11 +745,13 @@ breadcrumbs__link:focus-visible {
 }
 
 .catalog__header .banner__title {
-  margin: 0 200px 0 0;
+  margin: 0;
+  max-width: 500px;
 }
 
 .select__container {
   position: relative;
+  margin-left: auto;
 }
 
 .select__arrow {
@@ -799,8 +801,9 @@ breadcrumbs__link:focus-visible {
 
 .view__control__list {
   margin: 0;
-  margin-left: auto;
+  margin-left: 70px;
   padding: 0;
+  max-width: 160px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -1141,6 +1144,7 @@ breadcrumbs__link:focus-visible {
   margin-top: auto;
   padding: 45px 70px 30px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -1148,7 +1152,8 @@ breadcrumbs__link:focus-visible {
 .social__list {
   padding: 0;
   margin: 0;
-  max-width: 235px;
+  width: 145px;
+  flex-shrink: 0;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -1180,13 +1185,14 @@ breadcrumbs__link:focus-visible {
 }
 
 .phone {
-  max-width: 500px;
+  max-width: 750px;
+  padding: 0 20px;
   font-family: inherit;
   color: #000000;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
-  white-space: nowrap;
+  text-align: center;
 }
 
 .phone:hover {
